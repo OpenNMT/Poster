@@ -46,6 +46,27 @@
   \begin{columns}[t]
     \begin{column}{\onecolwid}
 
+
+      \begin{block}{Features}
+        {\bf OpenNMT implements many additional features on top of the standard sequence-to-sequence model:}
+
+        \vskip1ex
+
+        \begin{itemize}
+        \item Model variants: bidirectional encoder, convolutional encoder, variational dropout, attention parameterization, copying mechanisms, etc.
+        \item Factored input representation for richer features.
+        \item Tokenization and data preparation tools.
+          \item Multi-GPU training.
+%        \item learning rate decay strategies.
+%        \item advanced model retraining and adaptation.
+        \item Beam search length normalization.
+        \item \ldots~and many more!
+        \end{itemize}
+
+      \end{block}
+
+      \vskip2ex
+
       \begin{block}{Competitive System}
         OpenNMT achieves competitive results against other systems, e.g. in the recent WMT 2017 translation task:
 
@@ -81,26 +102,6 @@
           \vskip1ex
           \caption{Comparison of source words per second (WPS) on similar model size.}
         \end{table}
-
-      \end{block}
-
-      \vskip2ex
-
-      \begin{block}{Features}
-        {\bf OpenNMT implements many additional features on top of the standard sequence-to-sequence model:}
-
-        \vskip1ex
-
-        \begin{itemize}
-        \item Model variants: bidirectional encoder, convolutional encoder, variational dropout, attention parameterization, copying mechanisms, etc.
-        \item Factored input representation for richer features.
-        \item Tokenization and data preparation tools.
-          \item Multi-GPU training.
-%        \item learning rate decay strategies.
-%        \item advanced model retraining and adaptation.
-        \item Beam search length normalization.
-        \item \ldots~and many more!
-        \end{itemize}
 
       \end{block}
 
